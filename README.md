@@ -1,10 +1,10 @@
 [![Slack Status](http://slack.counterparty.io/badge.svg)](http://slack.counterparty.io)
 
-armory_utxsvr
+armory_utxsvr - Edited For Unobtanium
 ==============
 
 A daemon that provides Armory offline Transactions crafting and signing as an API service.
-Used on the Counterparty project for `counterblock`/`counterwallet`, but is general enough to be used for other projects as well.
+Used on the Unoparty project for `unoblock`/`unowallet`, but is general enough to be used for other projects as well.
 
 # Installation
 
@@ -13,3 +13,11 @@ For a simple Docker-based install of the Counterparty software stack, see [this 
 # Manual installation
 
 (Linux only.) Please see the `Dockerfile` for inspiration for manual installation.
+
+# Other info
+
+Ports used:
+```
+DEFAULT_PORT_MAINNET = 6490
+DEFAULT_PORT_TESTNET = 6491
+```
