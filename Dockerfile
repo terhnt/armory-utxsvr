@@ -1,4 +1,4 @@
-FROM unoparty/base
+FROM ubuntu:18.04
 
 MAINTAINER Unoparty Developers <dev@unobtanium.uno>
 
